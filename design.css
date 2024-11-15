@@ -702,8 +702,8 @@ body{
           text-align: center;
           position: absolute;
           width: 100%;
-          height: 170px;
+          height: 190px;
           bottom: 0%;
           top: 5500px;
-
+          z-index: 100;
         }
