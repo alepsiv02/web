@@ -1,0 +1,709 @@
+/* Cuerpo completo de la pagina */
+body{
+    background: rgb(8, 7, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Noble Corte */
+#tituloletra{
+    color: white;
+    font-family: "Cinzel", serif;
+    z-index: 100;
+}
+/* Div que contiene las palabras Noble Corte */
+#titulo {
+    background: linear-gradient(90deg, black 37%, rgb(107, 78, 42), black 64%);
+    opacity: 0.8;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1700px;
+    top: 0px;
+    z-index: 100;
+  }
+  /* Imagen del inicio (craneo) */
+  #img101{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%; 
+    top: 75px;
+    left: 80px;
+  }
+  /* Especificaciuones de la IMG craneo*/
+  #img101 img { 
+    width: 100%; 
+    height: auto; 
+  }
+  /* Eslogan (frase) */
+  #texto1letra{
+    color: rgb(141, 100, 40);
+    font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style:italic ;
+  }
+  /* Div que contiene eslogan */
+  #texto1 {
+    font-size: 38px;
+    opacity: 1;
+    position: relative;
+    width: 600px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    top: 10px;
+    left: 560px;
+  }
+
+
+  /* Fondo de la descripcion del restaurante */
+  #fondo{
+    background: rgb(8,7,7);
+    background: linear-gradient(90deg, rgba(8,7,7,1) 0%, rgba(47,30,18,1) 25%, rgba(47,30,18,1) 40%, rgba(47,30,18,1) 50%, rgba(47,30,18,1) 60%, rgba(47,30,18,1) 75%, rgba(8,7,7,1) 100%);
+    position: absolute;
+    width: 1700px;
+    height: 600px;
+    top: 914px;
+    left: 0px;
+    z-index: 50;
+  }
+  /* Div que contiene la descripcion */
+  #desc{
+    font-size: 38px;
+    opacity: 1;
+    position: relative;
+    width: 720px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    top: 100px;
+    left: 800px;
+  }
+  /* Div del Titular de la DESCRIPCION  */
+  #Titular{
+    font-size: 38px;
+    opacity: 1;
+    position: relative;
+    width: 2300px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    top: -60px;
+    left: 400px;
+  }
+  /* Titular de la DESCRIPCION  */
+  #descletra{
+    color: rgb(155, 135, 106);
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 36px;
+  }
+  /* DIV DE LA DESCRIPCION  */
+  #desctexto{
+    font-size: 38px;
+    opacity: 1;
+    position: relative;
+    width: 1100px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    top: 180px;
+    left: -600px;
+  }
+   /* DESCRIPCION  */
+   #descparrafo{
+    color: rgb(155, 135, 106);
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+  }
+  /* Div que contiene la imagen del corte de carne */
+  #imgcarne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 56%; 
+    top: -90px;
+    left: -140px;
+  }
+  /* Especificaciones de la IMG carne */
+  #imgcarne img { 
+    width: 56%; 
+    height: auto; 
+  }
+    /* DIV DEL LINK AL MENU  */
+    #linkmenu{
+      font-size: 25px;
+      opacity: 1;
+      position: relative;
+      width: 730px;
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      top: 150px;
+      left: -440px;
+    }
+    /* Link al menu  */
+    #vermenu{
+      color: rgb(155, 135, 106);
+      font-family: "Cinzel", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 24px;
+    }
+
+
+    /* Div que contiene toda la galeria  */
+    #galeria{
+      background: rgb(8,7,7);
+      background: linear-gradient(90deg, rgba(8,7,7,1) 0%, rgba(60,50,40,1) 30%, rgba(60,50,40,1) 50%, rgba(60,50,40,1) 70%, rgba(8,7,7,1) 100%);     
+      position: absolute;
+      width: 1700px;
+      height: 917px;
+      top: 1510px;
+      left: 0px;
+      z-index: 50;
+    }
+    /* DIV que contiene el encabezado de la galeria */
+    #galeriatexto{
+      font-size: 25px;
+      opacity: 1;
+      position: relative;
+      width: 300px;
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      top: 60px;
+      left: 700px;
+    }
+    /* DIV que contiene el encabezado de la galeria */
+    #galeriatexto1{
+      font-size: 25px;
+      opacity: 1;
+      position: relative;
+      width: 400px;
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      top: 10px;
+      left: 645px;
+    }
+   /* Encabezado de la galeria  */
+    .encabezadogaleria{
+      color: rgb(155, 135, 106);
+      font-family: "Cinzel", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 25px;
+    }
+
+    /* Fotos  */
+    #foto1, #foto2, #foto3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-right: 10px; 
+    }
+    
+    .fotos1 {
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+    }
+    
+    #foto1 img, #foto2 img, #foto3 img {
+      width: 230px; 
+      height: auto; 
+    }
+    
+    #foto4, #foto5, #foto6 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-right: 10px; 
+    }
+    
+    .fotos2 {
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      margin-top: 20px; 
+    }
+    
+    #foto4 img, #foto5 img, #foto6 img {
+      width: 230px; 
+      height: auto; 
+    }
+    
+    #descgaleria{
+      font-size: 25px;
+      opacity: 1;
+      position: relative;
+      width: 700px;
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      top: 10px;
+      left: 497px;
+    }
+    #textodescgaleria{
+      color: rgb(155, 135, 106);
+      font-family: "Cinzel", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 19px;
+      text-align: justify;
+
+    }
+
+
+
+    /* Fondo del menu */
+     #fondomenu{
+      background: rgb(8,7,7);
+      background: linear-gradient(90deg, rgba(8,7,7,1) 0%, rgba(47,30,18,1) 25%, rgba(47,30,18,1) 40%, rgba(47,30,18,1) 50%, rgba(47,30,18,1) 60%, rgba(47,30,18,1) 75%, rgba(8,7,7,1) 100%);
+      position: absolute;
+      width: 1700px;
+      height: 2500px;
+      top: 2420px;
+      left: 0px;
+      z-index: 50;
+    }
+    /* DIV DEL MENU  */
+    #Menu{
+      font-size: 25px;
+      opacity: 1;
+      position: relative;
+      width: 730px;
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      top: -220px;
+      left: 0px;
+    }
+     /* Div del fondo */
+     #fondomenu {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+     }
+
+     /* Seccion del MENU  */
+     #titulomenu{
+      color: rgb(155, 135, 106);
+      font-family: "Cinzel", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 29px;
+    }
+
+     /* Contenedor para los divs */
+     .cortes { 
+      display: flex; 
+      flex-direction: column; 
+      gap: 10px; 
+      align-items: center; 
+      margin-top: -200px; 
+      }
+      .box { 
+        width: 1000px; 
+        height: 240px; 
+        background: rgb(8, 7, 7); 
+        overflow: hidden; 
+        display: flex; 
+        justify-content: flex-start;
+        align-items: center; 
+        margin-top: 20px; 
+        } 
+
+        /* Estilo para los párrafos */ 
+        
+        #corte1,#corte2,#corte3,#corte4,#vino5,#vino6,#vino7,#vino8 { 
+          color: rgb(155, 135, 106);
+          font-family: "Cinzel", serif;
+          font-optical-sizing: auto;
+          font-weight: 500;
+          font-style: normal;
+          font-size: 25px;
+        }
+        #kobe{
+          font-size: 38px;
+          opacity: 1;
+          position: relative;
+          width: 480px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: -60px;
+          left: 500px;
+        }
+        #porterhouse{
+          font-size: 38px;
+          opacity: 1;
+          position: relative;
+          width: 900px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: -50px;
+          left: 345px;
+        }
+        #tomahawk{
+          font-size: 38px;
+          opacity: 1;
+          position: relative;
+          width: 600px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: -50px;
+          left: 489px;
+        }
+        #Wagyu{
+          font-size: 38px;
+          opacity: 1;
+          position: relative;
+          width: 940px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: -45px;
+          left: 307px;
+        }
+        #vino1{
+          font-size: 38px;
+          opacity: 1;
+          position: relative;
+          width: 710px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: -60px;
+          left: 370px;
+          text-align: center;
+        }
+        #vino2{
+          font-size: 38px;
+          opacity: 1;
+          position: relative;
+          width: 900px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: -50px;
+          left: 325px;
+        }
+        #vino3{
+          font-size: 38px;
+          opacity: 1;
+          position: relative;
+          width: 640px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: -50px;
+          left: 474px;
+        }
+        #vino4{
+          font-size: 38px;
+          opacity: 1;
+          position: relative;
+          width: 800px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: -45px;
+          left: 357px;
+          text-align: center;
+        }
+        #corte1d,#corte2d,#corte3d,#corte4d,#vino5d,#vino6d,#vino7d,#vino8d{ 
+          color: rgb(155, 135, 106);
+          font-family: "Cinzel", serif;
+          font-optical-sizing: auto;
+          font-weight: 500;
+          font-style: normal;
+          font-size: 12px;
+          text-align:justify;
+        }
+        #servido1{
+          opacity: 1;
+          position: relative;
+          width: 190px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: 100px;
+          left: -205px;
+        }
+        #servido2{
+          opacity: 1;
+          position: relative;
+          width: 190px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: 100px;
+          left: -300px;
+        }
+        #servido3{
+          opacity: 1;
+          position: relative;
+          width: 190px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: 100px;
+          left: -269px;
+        }
+        #servido4{
+          opacity: 1;
+          position: relative;
+          width: 190px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: 100px;
+          left: -236px;
+        }
+        #servido5{
+          opacity: 1;
+          position: relative;
+          width: 190px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: 100px;
+          left: -346px;
+        }
+        #servido6{
+          opacity: 1;
+          position: relative;
+          width: 190px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: 70px;
+          left: -305px;
+        }
+        #servido7{
+          opacity: 1;
+          position: relative;
+          width: 190px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: 90px;
+          left: -330px;
+        }
+        #servido8{
+          opacity: 1;
+          position: relative;
+          width: 190px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: 90px;
+          left: -386px;
+        }
+        #img0 img { 
+          width: 230px; 
+          height: auto; 
+          margin-left: -943px;
+          margin-top: 93px;
+        }
+        #img2 img{ 
+          width: 280px; 
+          height: auto; 
+          margin-left: -1100px;
+          margin-top: 10px;
+        }
+         #img3 img{ 
+          width: 380px; 
+          height: auto; 
+          margin-left: -1177px;
+          margin-top: 100px;
+        }
+         #img4 img { 
+          width: 290px; 
+          height: auto; 
+          margin-left: -1050px;
+          margin-top: 100px;
+        }
+        #img5 img { 
+          width: 90px; 
+          height: auto; 
+          margin-left: -1930px;
+          margin-top: 140px;
+        }
+        #img6 img{ 
+          width: 80px; 
+          height: auto; 
+          margin-left: -1000px;
+          margin-top: 106px;
+        }
+        #img7 img{ 
+          width: 53px; 
+          height: auto; 
+          margin-left: -1020px;
+          margin-top: 106px;
+        }
+         #img8 img { 
+          width: 60px; 
+          height: auto; 
+          margin-left: -2070px;
+          margin-top: 100px;
+        }
+
+            /* Fondo del menu */
+         #promocionesfondo{
+          background: rgb(8,7,7);
+          background: linear-gradient(90deg, rgba(8,7,7,1) 0%, rgba(60,50,40,1) 30%, rgba(60,50,40,1) 50%, rgba(60,50,40,1) 70%, rgba(8,7,7,1) 100%); 
+          position: absolute;
+          width: 1700px;
+          height: 700px;
+          top: 4900px;
+          left: 0px;
+          z-index: 50;
+        }
+        #promociones{
+          font-size: 25px;
+          opacity: 1;
+          position: relative;
+          width: 730px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: 0px;
+          left: 500px;
+        }
+
+         #titulopromociones{
+          color: rgb(155, 135, 106);
+          font-family: "Cinzel", serif;
+          font-optical-sizing: auto;
+          font-weight: 500;
+          font-style: normal;
+          font-size: 29px;
+        }
+        .cont { 
+          width: 800px; 
+          height: 170px; 
+          background: rgb(8, 7, 7); 
+          overflow: hidden; 
+          display: flex; 
+          justify-content: flex-start;
+          align-items: center; 
+          margin-top: 30px; 
+          margin-left: 450px;
+          } 
+        #img9 img { 
+          width: 90px; 
+          height: auto; 
+          margin-left: -1070px;
+          margin-top: 160px;
+        }
+        #img10 img { 
+          width: 170px; 
+          height: auto; 
+          margin-left: -1100px;
+          margin-top: 100px;
+        }
+        #info1{
+          opacity: 1;
+          position: relative;
+          width: 190px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: 90px;
+          left: -150px;
+        }
+        #info2{
+          opacity: 1;
+          position: relative;
+          width: 190px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: 75px;
+          left: -160px;
+        }
+        #info1d,#info2d{ 
+          color: rgb(155, 135, 106);
+          font-family: "Cinzel", serif;
+          font-optical-sizing: auto;
+          font-weight: 500;
+          font-style: normal;
+          font-size: 12px;
+          text-align:justify;
+        }
+        #promo1{
+          font-size: 38px;
+          opacity: 1;
+          position: relative;
+          width: 800px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: -70px;
+          left: 607px;
+          text-align: center;
+        }
+        #promo2{
+          font-size: 38px;
+          opacity: 1;
+          position: relative;
+          width: 800px;
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          top: -45px;
+          left: 225px;
+          text-align: center;
+        }
+         #promocion1 { 
+          color: rgb(155, 135, 106);
+          font-family: "Cinzel", serif;
+          font-optical-sizing: auto;
+          font-weight: 500;
+          font-style: normal;
+          font-size: 25px;
+          margin-top: 60px;
+          margin-left: -780px;
+        }
+         #promocion2 { 
+          color: rgb(155, 135, 106);
+          font-family: "Cinzel", serif;
+          font-optical-sizing: auto;
+          font-weight: 500;
+          font-style: normal;
+          font-size: 25px;
+        }
+        footer{
+          background-color: rgb(155, 135, 106);
+          padding: 1rem 2rem;
+          text-align: center;
+          position: absolute;
+          width: 100%;
+          height: 190px;
+          bottom: 0%;
+          top: 5500px;
+          z-index: 100;
+        }
